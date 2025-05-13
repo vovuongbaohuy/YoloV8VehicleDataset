@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['trucks']
+
+roboflow:
+  workspace: traffic-b3iva
+  project: my-first-project-caiw2
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/traffic-b3iva/my-first-project-caiw2/dataset/1
