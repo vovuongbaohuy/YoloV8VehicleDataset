@@ -1,0 +1,14 @@
+train:
+  - ../trucks-dataset/train/images
+  - ../mopeds-dataset/train/images
+
+val:
+  - ../trucks-dataset/valid/images
+  - ../mopeds-dataset/valid/images
+
+test:
+  - ../trucks-dataset/test/images
+  - ../mopeds-dataset/test/images
+
+nc: 2
+names: ['trucks', 'mopeds']
