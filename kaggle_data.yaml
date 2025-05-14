@@ -1,0 +1,14 @@
+train:
+  - /kaggle/input/dataset/trucks-dataset/train/images
+  - /kaggle/input/dataset/mopeds-dataset/train/images
+
+val:
+  - /kaggle/input/dataset/trucks-dataset/valid/images
+  - /kaggle/input/dataset/mopeds-dataset/valid/images
+
+test:
+  - /kaggle/input/dataset/trucks-dataset/test/images
+  - /kaggle/input/dataset/mopeds-dataset/test/images
+
+nc: 2
+names: ['trucks', 'mopeds']
